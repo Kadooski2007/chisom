@@ -1,0 +1,393 @@
+html,body{
+    background-color:  hsl(204, 43%, 93%);
+    overflow-y: hidden;
+     }
+     .heal{
+         width: 743px ;
+         height: 210px;
+         background-color: white;
+         position: relative;
+         left: 270px;
+         top: 50px;
+         border-top-left-radius: 9px;
+         border-top-right-radius: 9px;
+     }
+     #jesse{
+     position: relative;
+     color: blue;
+     font-size: 17px;
+     font-family: sans-serif;
+     position: relative;
+     left: 37px;
+     top: 40px;
+     }
+     #play{
+     position: relative;
+     color:  hsl(71, 73%, 54%);
+     font-size: 17px;
+     font-family: sans-serif;
+     position: relative;
+     left: 37px;
+     top: 50px;
+     }
+     #doing{
+     position: relative;
+     color: hsl(218, 22%, 67%) ;
+     font-size: 17px;
+     font-family: sans-serif;
+     position: relative;
+     left: 37px;
+     top: 45px;
+     }
+     #fave{
+         position: relative;
+     color: hsl(218, 22%, 67%) ;
+     font-size: 17px;
+     font-family: sans-serif;
+     position: relative;
+     left: 37px;
+     top: 40px;
+     }
+     .bend{
+         width: 370px;
+         height: 260px;
+         position: relative;
+      top: 32px;
+         left: 270px;
+         border-bottom-left-radius: 9px;
+         background-color:   hsl(179, 62%, 43%);
+     }
+     #ster{
+     position: relative;
+     color: white ;
+     font-size: 19px;
+     font-family: sans-serif;
+     position: relative;
+     left: 37px;
+     top: 30px;
+ 
+     }
+     #uche{
+         position: relative;
+     color: white ;
+     font-size: 26px;
+     font-family: sans-serif;
+     position: relative;
+     left: 37px;
+     top: 30px;
+ 
+     }
+     #awo{
+         position: relative;
+     color: white ;
+     font-size: 15px;
+     font-family: sans-serif;
+     position: relative;
+     left: 100px;
+     top: -18px;
+ 
+     }
+     #full{
+         position: relative;
+     color: white ;
+     font-size: 15px;
+     font-family: sans-serif;
+     position: relative;
+     left: 37px;
+     top: -15px;
+ 
+     }
+     .reduce{
+         width: 373px;
+         height: 260px;
+         position: relative;
+       left: 640px;
+         bottom: 247px;
+         border-bottom-right-radius :9px;
+         background-color:  skyblue;
+     }
+     #ate{
+         width: 225px;
+         height:40px ;
+         background-color:  hsl(71, 73%, 54%);
+         position: relative;
+          color: white;
+          border: none;
+          border-radius: 8px;
+         left: 35px;
+     }
+     #deper{
+         position: relative;
+     color: white ;
+     font-size: 19px;
+     font-family: sans-serif;
+     position: relative;
+     left: 37px;
+     top: 30px;
+     }
+     #selo{
+         position: relative;
+     color:  palegoldenrod ;
+     font-size: 15px;
+     font-family: sans-serif;
+     position: relative;
+     left: 37px;
+     top: 20px;
+     }
+     #cart{
+         position: relative;
+     color:  palegoldenrod ;
+     font-size: 15px;
+     font-family: sans-serif;
+     position: relative;
+     left: 37px;
+     top: 12px;
+     }
+     #finer{
+         position: relative;
+     color:  palegoldenrod ;
+     font-size: 15px;
+     font-family: sans-serif;
+     position: relative;
+     left: 37px;
+     top: 5px;
+     }
+     #mike{
+         position: relative;
+     color:  palegoldenrod ;
+     font-size: 15px;
+     font-family: sans-serif;
+     position: relative;
+     left: 37px;
+     top: -4px;
+       
+     }
+     #walker{
+         position: relative;
+     color:  palegoldenrod;
+     font-size: 15px;
+     font-family: sans-serif;
+     position: relative;
+     left: 37px;
+     top: -12px;
+     }
+     #cap{
+         position: relative;
+     color:  palegoldenrod;
+     font-size: 15px;
+     font-family: sans-serif;
+     position: relative;
+     left: 37px;
+     top: -19px;
+     }
+     #sharp{
+         position: relative;
+     color: palegoldenrod;
+     font-size: 15px;
+     font-family: sans-serif;
+     position: relative;
+     left: 37px;
+     top: -25px;
+     }
+         
+    
+     
+     /* //mobile styling */
+     @media screen and (max-width:780px) {
+         .heal{
+         width: 293px ;
+         height: 230px;
+         background-color: white;
+         position: relative;
+         left: 23px;
+         top: 30px;
+         border-top-left-radius: 9px;
+         border-top-right-radius: 9px;
+     }
+     #jesse{
+     position: relative;
+     color: blue;
+     font-size: 17px;
+     font-family: sans-serif;
+     position: relative;
+     left: 24px;
+     top: 30px;
+     } 
+     #play{
+     position: relative;
+     color:  hsl(71, 73%, 54%);
+     font-size: 15px;
+     font-family: sans-serif;
+     width: 230px;
+     position: relative;
+     left: 24px;
+     top: 35px;
+     }
+     #doing{
+     position: relative;
+     color: hsl(218, 22%, 67%) ;
+     font-size: 14px;
+     width: 250px;
+     line-height: 20px;
+     font-family: sans-serif;
+     position: relative;
+     left: 24px;
+     top: 35px;
+     }
+     #fave{
+         position: relative;
+     color: hsl(218, 22%, 67%) ;
+     font-size: 14px;
+     font-family: sans-serif;
+     width: 250px;
+     line-height: 20px;
+     position: relative;
+     left: 24px;
+     top: 24px;
+     }
+     .bend{
+         width: 293px;
+         height: 230px;
+         position: relative;
+      top: 12px;
+         left: 23px;
+         border-bottom-left-radius: 0px;
+         background-color:   hsl(179, 62%, 43%);
+     }
+     #ster{
+     position: relative;
+     color: white ;
+     font-size: 16px;
+     font-family: sans-serif;
+     position: relative;
+     left: 24px;
+     top: 30px;
+ 
+     }
+     #uche{
+         position: relative;
+     color: white ;
+     font-size: 23px;
+     font-family: sans-serif;
+     position: relative;
+     left: 24px;
+     top: 30px;
+ 
+     }
+     #awo{
+         position: relative;
+     color: white ;
+     font-size: 14px;
+     font-family: sans-serif;
+     position: relative;
+     left: 80px;
+     top: -14px;
+     }
+     #full{
+         position: relative;
+     color: white ;
+     font-size: 15px;
+     font-family: sans-serif;
+     position: relative;
+     left: 24px;
+     top: -15px;
+ 
+     }
+     #ate{
+         width: 235px;
+         height:40px ;
+         background-color:  hsl(71, 73%, 54%);
+         position: relative;
+          color: white;
+          border: none;
+          border-radius: 8px;
+         left: 24px;
+     }
+     .reduce{
+         width: 293px;
+         height: 230px;
+         position: relative;
+       left: 23px;
+         top: -7px;
+         border-bottom-right-radius :9px;
+         background-color:  skyblue;
+     }
+     #deper{
+         position: relative;
+     color: white ;
+     font-size: 19px;
+     font-family: sans-serif;
+     position: relative;
+     left: 24px;
+     top: 25px;
+     }
+      #selo{
+         position: relative;
+     color:  palegoldenrod ;
+     font-size: 15px;
+     font-family: sans-serif;
+     position: relative;
+     left: 24px;
+     top: 15px;
+     }
+     #cart{
+         position: relative;
+     color:  palegoldenrod ;
+     font-size: 15px;
+     font-family: sans-serif;
+     position: relative;
+     left: 24px;
+     top: 5px;
+     }
+     #finer{
+         position: relative;
+     color:  palegoldenrod ;
+     font-size: 15px;
+     font-family: sans-serif;
+     position: relative;
+     left: 24px;
+     top: -6px;
+     }
+     #mike{
+         position: relative;
+     color:  palegoldenrod ;
+     font-size: 15px;
+     font-family: sans-serif;
+     position: relative;
+     left: 24px;
+     top: -17px;
+       
+     }
+     #walker{
+         position: relative;
+     color:  palegoldenrod;
+     font-size: 15px;
+     font-family: sans-serif;
+     position: relative;
+     left: 24px;
+     top: -28px;
+     }
+     #cap{
+         position: relative;
+     color:  palegoldenrod;
+     font-size: 14px;
+     font-family: sans-serif;
+     position: relative;
+     left: 24px;
+     top: -38px;
+     }
+     #sharp{
+         position: relative;
+     color: palegoldenrod;
+     font-size: 14px;
+     font-family: sans-serif;
+     position: relative;
+     left: 24px;
+     top: -48px;
+     }
+    html,body{
+     overflow-x: hidden;
+     overflow-y: scroll;
+    }     
+    
+ }
