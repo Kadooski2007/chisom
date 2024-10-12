@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        #john{
+            font-size: 19px;
+            margin-left: 30px;
+            position: relative;
+             top: 40px;
+        }
+        #guy{
+            font-size: 19px;
+            margin-left: 30px;
+            position: relative;
+             top: 10px;
+        }
      .bobo{
    width: 400px;
    background-color: aliceblue;
@@ -16,85 +28,86 @@
 #love{
     border-radius: 10px;
     border: none;
-    width: 229px;
+    width: 329px;
     height: 37px;
-    margin-left: 76px;
-    margin-top: 50px;
+    margin-left: 30px;
+    margin-top: 33px;
 }
 #lobby{
     border-radius: 10px;
     border: none;
-    width: 229px;
+    width: 329px;
     height: 37px;
-    margin-top: 30px;
-    margin-left: 76px;
+    margin-left: 30px;
 }
-#mum{
-    border-radius: 10px;
-    border: none;
-    width: 229px;
-    height: 37px;
-    margin-top: 30px;
-    margin-left: 76px;
-}
+
 button{
     border-radius: 10px;
     border: none;
     width: 169px;
     height: 37px;
+    background-color: green;
+    color: white;
     margin-top: 30px;
     margin-left: 106px;
 }
 @media screen and (max-width:780px){
     .bobo {
-    width: 342px;
-    background-color: aliceblue;
-    height: 300px;
-    margin-top: 166px;
-    margin-left: -3px;
-    border-radius: 7px;
+        width: 318px;
+        background-color: aliceblue;
+        height: 300px;
+        margin-top: 166px;
+        margin-left: 6px;
+        border-radius: 7px;
+    }
+    #john {
+    font-size: 19px;
+    margin-left: 30px;
+    width: 207px;
+    position: relative;
+    top: 40px;
 }
 #love {
-    border-radius: 10px;
-    border: none;
-    width: 229px;
-    height: 37px;
-    margin-left: 57px;
-    margin-top: 50px;
+        border-radius: 10px;
+        border: none;
+        width: 254px;
+        height: 37px;
+        margin-left: 27px;
+        margin-top: 36px;
+    }
+    #guy {
+    font-size: 19px;
+    width: 100px;
+    margin-left: 30px;
+    position: relative;
+    top: 10px;
 }
 #lobby {
-    border-radius: 10px;
-    border: none;
-    width: 229px;
-    height: 37px;
-    margin-top: 30px;
-    margin-left: 56px;
-}
-#mum {
-    border-radius: 10px;
-    border: none;
-    width: 229px;
-    height: 37px;
-    margin-top: 30px;
-    margin-left: 56px;
-}
-button {
-    border-radius: 10px;
-    border: none;
-    width: 169px;
-    height: 37px;
-    margin-top: 30px;
-    margin-left: 86px;
-}
+        border-radius: 10px;
+        border: none;
+        width: 252px;
+        height: 37px;
+        margin-top: 8px;
+        margin-left: 30px;
+    }
+    button {
+        border-radius: 10px;
+        border: none;
+        width: 169px;
+        height: 37px;
+        margin-top: 23px;
+        margin-left: 76px;
+    }
 }
     </style>
    
 </head>
 <body>
     <div class="bobo">
-  <input type="text" id="love"  placeholder="firstname"required>
-  <input type="text" id="lobby"  placeholder="lastname"required>
-  <input type="text" id="mum"  placeholder="email"required>
+        <p id="john">Username or email address</p>
+  <input type="text" id="love"  placeholder=""required>
+  <p id="guy">Password  </p>
+  <input type="text" id="lobby"  placeholder=""required>
   <button>Submit</button>
     </div>
 </body>
