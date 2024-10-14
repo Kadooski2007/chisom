@@ -75,7 +75,7 @@ html,body{
      position: relative;
      left: 37px;
      top: 30px;
- 
+     width: 50px;
      }
      #awo{
          position: relative;
@@ -95,7 +95,7 @@ html,body{
      position: relative;
      left: 37px;
      top: -15px;
- 
+     width: 225px;
      }
      .reduce{
          width: 373px;
@@ -189,7 +189,11 @@ html,body{
      left: 37px;
      top: -25px;
      }
-         
+     body{
+        padding: 30px;
+        margin: auto;
+        box-sizing: border-box;
+     }
     
      
      /* //mobile styling */
@@ -212,6 +216,7 @@ html,body{
      position: relative;
      left: 24px;
      top: 30px;
+     width: 160px;
      } 
      #play{
      position: relative;
@@ -256,6 +261,7 @@ html,body{
      }
      #ster{
      position: relative;
+     width: 158px;
      color: white ;
      font-size: 16px;
      font-family: sans-serif;
@@ -277,6 +283,7 @@ html,body{
      #awo{
          position: relative;
      color: white ;
+     width: 67px;
      font-size: 14px;
      font-family: sans-serif;
      position: relative;
@@ -316,6 +323,7 @@ html,body{
          position: relative;
      color: white ;
      font-size: 19px;
+     width: 100px;
      font-family: sans-serif;
      position: relative;
      left: 24px;
@@ -327,6 +335,7 @@ html,body{
      font-size: 15px;
      font-family: sans-serif;
      position: relative;
+     width: 190px;
      left: 24px;
      top: 15px;
      }
@@ -334,6 +343,7 @@ html,body{
          position: relative;
      color:  palegoldenrod ;
      font-size: 15px;
+     width: 230px;
      font-family: sans-serif;
      position: relative;
      left: 24px;
@@ -343,6 +353,7 @@ html,body{
          position: relative;
      color:  palegoldenrod ;
      font-size: 15px;
+     width: 180px;
      font-family: sans-serif;
      position: relative;
      left: 24px;
@@ -352,6 +363,7 @@ html,body{
          position: relative;
      color:  palegoldenrod ;
      font-size: 15px;
+     width: 220px;
      font-family: sans-serif;
      position: relative;
      left: 24px;
@@ -364,6 +376,7 @@ html,body{
      font-size: 15px;
      font-family: sans-serif;
      position: relative;
+     width: 230px;
      left: 24px;
      top: -28px;
      }
@@ -371,6 +384,7 @@ html,body{
          position: relative;
      color:  palegoldenrod;
      font-size: 14px;
+     width: 200px;
      font-family: sans-serif;
      position: relative;
      left: 24px;
@@ -382,12 +396,52 @@ html,body{
      font-size: 14px;
      font-family: sans-serif;
      position: relative;
+     width: 180px;
      left: 24px;
      top: -48px;
-     }
-    html,body{
-     overflow-x: hidden;
-     overflow-y: scroll;
-    }     
+     }  
     
  }
+
+ @media screen and (max-width:380px){
+    body{
+        padding: 20px;
+        margin: auto;
+        box-sizing: border-box;
+     }
+ }
+ @media screen and (max-width:395px){
+    body{
+        padding: 24px;
+        margin: auto;
+        box-sizing: border-box;
+     }
+ }
+ @media screen and (max-width:430px){
+    body{
+        padding: 46px;
+        margin: auto;
+        box-sizing: border-box;
+     }
+ }
+ @media screen and (max-width:415px){
+ body{
+    padding: 36px;
+    margin: auto;
+    box-sizing: border-box;
+ }
+}
+@media screen and (max-width:370px){
+    body{
+        padding: 12px;
+        margin: auto;
+        box-sizing: border-box;
+     }  
+}
+@media screen and (max-width:350px){
+    body{
+        padding: 12px;
+        margin: auto;
+        box-sizing: border-box;
+     }  
+}
