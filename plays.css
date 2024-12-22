@@ -1,0 +1,240 @@
+.mine{
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ .navbar .nav-link {
+     color: black; 
+    font-weight: bold;
+  }
+  .navbar{
+    margin-top: -24px;
+  }
+  .navbar .nav-link:hover {
+    color: orangered; 
+  }
+  .hold{
+    color: black;
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: bold;
+  }
+  .navbar .navbar-nav {
+    margin-left: 340px;
+    gap: 30px;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  .learnt{
+    border-radius: 100px;
+    background-color: black;
+  }
+  .custom-orange {
+    color: orange; 
+  }
+  #accordionFlushExample {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6; 
+    position: relative;
+    top: 31px;
+  }
+  
+  #accordionFlushExample .accordion-item {
+    background-color: white; 
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  #accordionFlushExample .accordion-button {
+    background-color: #f9f9f9; 
+    color: #333;
+  }
+  #accordionFlushExample .accordion-button:hover{
+    background-color: #ffe5b4;
+    color: red; 
+  }
+  .feature-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    background-color: white;
+    margin-top: 100px;
+}
+.feature-icon {
+    color: #d9534f; 
+    font-size: 24px;
+}
+.feature-title {
+    font-weight: bold;
+    font-size: 22px;
+}
+.feature-subtitle {
+    color: #6c757d;
+    font-size: 14px;
+}
+.useless{
+    height: 163px;
+}
+.hero-section {
+    position: relative;
+    background: url('templatemo_591_villa_agency/assets/images/video-bg.jpg') no-repeat center center/cover; /* Replace with your background image */
+    height: 70vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+}
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+.hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.hero-content p {
+    font-size: 1rem;
+    color: #ff6f61; 
+}
+.waiting{
+    height: 70vh;
+}
+.black{
+    background-color: #f9f9f9;
+    height: 720px;
+    margin-top: 100px;
+}
+.rally{
+    margin-left: 110px;
+    position: relative;
+    top: 80px;
+}
+.gone{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.rally h1{
+    width: 370px;
+}
+.conclude{
+    width: 700px;
+    height: 400px;
+    margin-left: 124px;
+    margin-top: 90px;
+}
+.sell h3{
+    margin-left: 890px;
+    font-size: 22px;
+    position: relative;
+    top: -330px;
+}
+.sell p{
+    margin-left: 890px;
+    font-size: 18px;
+    position: relative;
+
+    margin-top: -320px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.smooch{
+    margin-left: 890px;
+    font-size: 18px;
+    top: 350px;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.one-day{
+    color: black;
+    font-size: 38px;
+    margin-top: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form label{
+    color: black;
+}
+
+
+  @media (max-width: 765px) {
+    .navbar .navbar-nav {
+      margin-left: 0px; 
+      gap: 0;
+    }
+    .carousel-item img {
+        height: 400px; 
+      }
+      #accordionFlushExample {
+        position: relative;
+        top: 0px;
+      }
+      .feature-card {
+        margin-top: 0px;
+    }
+    .hero-content p {
+        font-size: 1rem;
+        color: #ff6f61; 
+    }
+    .hero-content h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+    .waiting{
+        margin-top: 500px;
+        width: 300px;
+        height: 170px;
+        margin-left: -294px;
+       position: relative;
+       bottom: 90px;
+        border-radius: 10px;
+    }
+    .rally{
+        margin-left: 0px;
+        position: relative;
+        top: 80px;
+    }
+    .gone{
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .rally h1{
+        width: 370px;
+    }
+    .conclude{
+        margin-left: 0px;
+        margin-top: 120px;
+    }
+    .sell h3{
+        margin-left: 0px;
+        font-size: 22px;
+        margin-top: 380px;
+    }
+    .sell p{
+        margin-left: 0px;
+        font-size: 20px;
+        margin-top: -320px;
+    }
+    .one-day{
+        color: black;
+        font-size: 33px;
+        margin-top: 480px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+  }
+ 
+  
+
+  

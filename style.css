@@ -1,6 +1,8 @@
-html,body{
-    background-color:  hsl(204, 43%, 93%);
-    overflow-y: hidden;
+body{
+      background: linear-gradient(to bottom,#E3F2FD,#B3E5FC);  
+     padding: 10px 60px;
+     box-sizing: border-box;
+
      }
      .heal{
          width: 743px ;
@@ -189,15 +191,12 @@ html,body{
      left: 37px;
      top: -25px;
      }
-     body{
-        padding: 30px;
-        margin: auto;
-        box-sizing: border-box;
-     }
+
     
      
      /* //mobile styling */
      @media screen and (max-width:780px) {
+       
          .heal{
          width: 293px ;
          height: 230px;
@@ -419,14 +418,14 @@ html,body{
  }
  @media screen and (max-width:430px){
     body{
-        padding: 46px;
+        padding: 37px;
         margin: auto;
         box-sizing: border-box;
      }
  }
- @media screen and (max-width:415px){
+ @media screen and (max-width:400px){
  body{
-    padding: 36px;
+    padding: 15px;
     margin: auto;
     box-sizing: border-box;
  }
@@ -440,7 +439,7 @@ html,body{
 }
 @media screen and (max-width:350px){
     body{
-        padding: 12px;
+        padding: 2px;
         margin: auto;
         box-sizing: border-box;
      }  

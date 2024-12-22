@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Bootstrap</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+   <style>
+    /* [class*="col"] {
+        padding: 1rem;
+        background-color: #33b5e5;
+        border: 2px solid #fff;
+        color: #fff;
+    } */
+    .child{
+        background-color: blue;
+    }
+    /* .vh-25{
+      height: 25vh;
+    } */
+    .social-icons a {
+      color:red;
+      font-size: 1.2rem;
+      text-decoration: none;
+    }
+
+    .social-icons a:hover {
+      color: #0d6efd; /* Bootstrap Primary Color on hover */
+    }
+    .card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+  }
+  .custom-orange {
+    color: orange; /* Orange color */
+  }
+   </style>
+</head>
+<body>
+    
+    <!-- <div class="container border">
+        <div class="row">
+            <div class=" col-lg-8 col-md-6">Col 1</div>
+             <div class=" col-lg-4 col-md-6">Col 2</div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12</div>
+            <div class="col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12">col-xxl-1 col-xl-2 col-1g-3 col-md-4  col-sm-6 col-xs-12</div>
+        </div>
+    </div>
+    <div class="container border">
+        <div class="row align-items-center" style="height: 500px;">
+            <div class="col">
+                One of three columns
+            </div>
+            <div class="col">
+                One of three columns
+            </div>
+            <div class="col">
+                One of three columns
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-2">1</div>
+                <div class="col-2">2</div>
+            </div>
+           </div>
+    <h2 class="text-center my-5">Gutter</h2>
+
+    <div class="container">
+        <div class="row gx-2"> -->
+            <!-- note:the gx is for horixontal margin while gy is vertical margin -->
+            <!-- <div class="col-6"><div class="child">1</div></div>
+            <div class="col-6"><div class="child">2</div></div>
+            <div class="col-6"><div class="child">3</div></div>
+            <div class="col-6"><div class="child">4</div></div>
+        </div>
+    </div> -->
+   
+       <!-- buttons -->
+         <!-- <div class="container my-5">
+            <button type="button" class="btn btn-primary btn-lg">Click Me!</button>
+         </div>
+         <div class="container my-5">
+            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+            <button type="button" class="btn btn-primary">Regular button</button>
+            <button type="button" class="btn btn-primary btn-sm">Small button</button>
+         </div>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary" type="button">Button</button>
+            <button class="btn btn-primary" type="button">Button</button>
+          </div> -->
+
+          <!-- cards -->
+           <!-- <div class="container my-5">
+              <div class="row">
+                <div class="col-12 col-sm-6 col-md-4  d-flex d-sm-block justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="istockphoto-1390242644-612x612.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                </div>
+              </div>
+           </div>
+        </div> -->
+
+        <!-- <div class="row">
+            <div class="col-sm-6 mb-1 mb-sm-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card w-75 mb-3 col-sm-12 my-5">
+            <div class="card-body ">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Button</a>
+            </div>
+          </div>
+          
+          <div class="card w-50">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Button</a>
+            </div>
+          </div> -->
+          
+          <!-- <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4 ">
+                <img src="istockphoto-2148703154-612x612.jpg" class="img-fluid rounded-start h-100" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div> -->
+    
+          <!-- <div class="card border-primary mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card border-secondary mb-3" style="max-width: 18rem;">
+            <div class="card-header bg-transparent border-success">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Secondary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card text-bg-success mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Success card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card text-bg-danger mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Danger card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card text-bg-warning mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Warning card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Info card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card text-bg-light mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Dark card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div> -->
+
+          <!-- <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="istockphoto-13902342644-612x612.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="istockphoto-1390242644-612x612.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="istockphoto-1390242644-612x612.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="istockphoto-1390242644-612x612.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div> -->
+       
+       <!-- <div class="container">
+        <div style="width: 40%;border: 5px solid red;">
+            <img src="the-prototype-sIuTYLqzbDE-unsplash.jpg" class="img-fluid" alt=""/>
+        </div>
+    </div>
+        <h1 class="my-5">Thumbnail</h1>
+        <img src="the-prototype-sIuTYLqzbDE-unsplash.jpg" class="img-thumbnail float-end w-25"  alt=""/>
+       <div class="clearfix my-5"></div>
+        <img src="the-prototype-sIuTYLqzbDE-unsplash.jpg" class="d-block mx-auto w-25"  alt="" /> -->
+        
+      <!-- <div class="container">
+        <div style="padding: 3rem; width: 50%;margin: auto; border: 1px solid black;">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa vel ut quaerat fugiat 
+            rem cum nam eligendi ea veritatis vero recusandae sint quam quo aliquam doloribus, saepe ad!
+             Optio, at adipisci quas, nemo necessitatibus nesciunt tempora consectetur  illum facere
+              pariatur voluptatibus quae impedit quibusdam voluptatem debitis.
+          </p>
+          <p style="margin: 3rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+             repellat, quaerat, cupiditate ducimus architecto corporis cumque vel facere officia, earum id 
+             voluptatibus? Eum nulla cupiditate magni tenetur! Doloremque odio aliquid laborum ab!
+              Aperiam saepe similique deleniti architecto unde veritatis.</p>
+              <div style="width: 50%;background-color: #212529;color: white;margin: 0 auto;text-align: center;">
+                Centered element
+              </div>
+        </div>
+      
+
+      <div class=" mt-5 border border-1 border-dark rounded mx-auto w-50 p-5">
+        <div >
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa vel ut quaerat fugiat 
+            rem cum nam eligendi ea veritatis vero recusandae sint quam quo aliquam doloribus, saepe ad!
+             Optio, at adipisci quas, nemo necessitatibus nesciunt tempora consectetur  illum facere
+              pariatur voluptatibus quae impedit quibusdam voluptatem debitis.
+          </p>
+          <p class="m-5 d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+             repellat, quaerat, cupiditate ducimus architecto corporis cumque vel facere officia, earum id 
+             voluptatibus? Eum nulla cupiditate magni tenetur! Doloremque odio aliquid laborum ab!
+              Aperiam saepe similique deleniti architecto unde veritatis.</p>
+              <div class="d-none d-md-block  mx-auto w-50 bg-dark text-white  text-center my-bid">
+                 <p>Centered element</p>
+              </div> 
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="d-flex  mb-3 border border-2 border-dark m-5 flex-sm-row flex-md-column">
+      <div class="p-2">Flex item 1</div>
+      <div class="p-2">Flex item 2</div>
+      <div class="p-2">Flex item 3</div>
+    </div> -->
+
+    <!-- tables -->
+     <!-- <div class="container">
+    <h1 class=".mb-5">Tables</h1>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>Omdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thomson</td>
+          <td>Ofue</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Elvis</td>
+          <td>Bills</td>
+          <td>Sele</td>
+        </tr>
+      </tbody>
+    </table>
+    
+
+    <h2>Table responsive</h2>
+
+    <div class="table-responsive-md">
+      <table class="table table-bordered table-dark">
+        <thead>
+          <tr>
+            <th scope="row">#</th>
+            <th scope="col">Heading</th>
+            <th scope="col">Heading</th>
+            <th scope="col">Heading</th>
+            <th scope="col">Heading</th>
+            <th scope="col">Heading</th>
+            <th scope="col">Heading</th>
+            <th scope="col">Heading</th>
+            <th scope="col">Heading</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div> -->
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="the-prototype-sIuTYLqzbDE-unsplash.jpg" style="width: 50px;height: 30px;" alt="">
+        Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav> -->
+
+<!--   
+  <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Offcanvas navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="social-icons d-flex align-items-center flex-row flex-sm-row mb-3 mb-sm-0">
+            <a href="https://www.facebook.com" target="_blank">
+              <i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank" >
+              <i class="fab fa-instagram ms-3"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter ms-3"></i></a>
+          </div>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+   -->
+    
+   <!-- for offcanvas to display instead of icon -->
+   <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <a class="navbar-brand" href="#">Offcanvas navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="social-icons d-flex align-items-center flex-row flex-sm-row mt-3 mb-sm-0">
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com" target="_blank" >
+            <i class="fab fa-instagram ms-3"></i></a>
+          <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter ms-3"></i></a>
+        </div>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav> -->
+  
+   
+   
+   <!-- my first -->
+    <!-- <header>
+      <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="my-5">
+      <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+         <img src="dropship.jpeg" alt="" class="img-fluid" style="width: 300px;">
+        </div>
+        <div class="col-md-5">
+          <h1 class="mt-3">Tagline</h1>
+          <p class="mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, fugit accusantium quasi quod 
+            voluptatibus ducimus cupiditate culpa rem debitis eveniet explicabo adipisci totam doloribus, blanditiis, 
+            architecto a aliquid  doloremque odio?</p>
+            <button type="button" class="btn btn-primary mt-3">Call to action</button>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col">
+          <div class="bg-secondary text-white my-3 py-3 text-center">
+              <div class="card-body">
+                I can not believe this is happening to me i am so lost at this point of my life God please help me.
+              </div>
+          </div>
+        </div>
+      </div>
+       <div class="row">
+        <div class="col">
+          <div class="card-group">
+            <div class="card">
+              <img src="istockphoto-1390242644-612x612.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                <div class="text-center">
+                  <a href=""><button type="button" class="btn btn-primary">Read More</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="istockphoto-2148703154-612x612.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                <div class="text-center">
+                  <a href=""><button type="button" class="btn btn-primary">Read More</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="the-prototype-sIuTYLqzbDE-unsplash.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                <div class="text-center">
+                  <a href=""><button type="button" class="btn btn-primary">Read More</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+       <div class="text-center my-5">
+        <h2>Get In Touch</h2>
+      <p class="lead">Question? Do not hesitate to contact us</p>
+      </div>
+       <div class="row justify-content-center my-5">
+          <div class="col-lg-6">
+             <form action="">
+              <label for="email" class="form-label" >Email</label>
+              <input type="email" id="email" placeholder="@my.email.com" class="form-control">
+              <div class="form-floating my-5">
+              <input type="name" id="name" placeholder="e.g danny" class="form-control border-primary">
+              <label for="name" class="form-label">Name</label>
+              </div>
+              <label for="subject" class="form-label">Subject</label>
+              <select name="subject" id="subject" class="form-select">
+              <option value="pricing" selected>Pricing</option>
+              <option value="Technical">Technical</option>
+              <option value="Other">Other</option>
+            </select>
+  
+            <div class="form-floating my-5">
+              <textarea name="query" id="query" class="form-control" 
+               style="height: 150px;" placeholder="Write a message">
+              </textarea>
+              <label for="query">Write a message</label>
+            </div>
+             <div class="text-center">
+              <button type="submit" class="btn btn-primary" >submit</button>
+             </div>
+             </form>
+          </div>
+       </div>
+      </div>
+    </main>
+    <div class="container bg-danger">
+      <footer class="py-5 text-white">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column ">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2024 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div> -->
+  
+    
+      
+      
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

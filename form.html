@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+    <link rel="stylesheet" href="lappy.css">
+</head>
+<body>
+    <div id="thank-you-message">Thank you for registering with us!</div>
+    <form id="register-form">
+        <div class="form-container">
+            <h2>Registration</h2>
+            <label class="label-primary" for="name" >Full Name</label><br>
+          <input type="text" id="name" placeholder="Enter your name">
+          <label class="label-primary2" for="username">User Name</label><br>
+          <input type="text" id="text2" placeholder="Enter your username">
+           <label class="label-primary3" for="email">Email</label><br>
+           <input type="email" id="e-mail" placeholder="Enter your email">
+           <label class="label-primary5" for="number">Phone number</label><br>
+           <input type="p-number" id="p-number" placeholder="Enter your number">
+           <label class="label-five" for="password">Password</label><br>
+           <input type="password" id="my-password" placeholder="Enter your password">
+           <label class="label-pass" for="password">Confirm Password</label><br>
+           <input type="password" id="help-confirm" placeholder="Confirm your password">
+           <h2 id="column-hover">Gender</h2>
+           <input type="radio" id="y" name="gender"><label id="xam">Male</label>
+           <input type="radio" id="x" name="gender"><label id="van">Female</label>
+           <input type="radio" id="zoe" name="gender"><label id="gave">Prefer not to say</label>
+           <button type="submit" class="abs-urd" onclick="" >Register</button>
+        </div>
+    </form>
+
+    <script>
+        // Handle the form submission
+        document.getElementById('register-form').addEventListener('submit', function(event) {
+          event.preventDefault(); // Prevent the actual form submission (reloading the page)
+          
+          // Show the thank-you message
+          document.getElementById('thank-you-message').style.display = 'block';
+    
+          // Clear the form fields
+          this.reset();
+    });
+        </script>
+</body>
+</html>
